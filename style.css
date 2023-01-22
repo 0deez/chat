@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  }
+   
+  body {
+    overflow:hidden;
+    font-family: "Lato";
+    font-weight: 300;
+    background-color:#091921;
+    text-align: center;
+    color:white;
+    font-family:Montserrat;
+  }
+   
+  form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+   
+  form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+   
+  input {
+    font-family: "Lato";
+  }
+   
+  a {
+    color: ;
+    text-decoration: none;
+  }
+   
+  a:hover {
+    text-decoration: underline;
+  }
+   
+  #wrapper,
+  #loginform {
+    margin: 0 auto;
+    padding-bottom: 
+    width: 600px;
+    max-width: 100%;
+    border: 2px #A7A7A7;
+    border-radius: 4px;
+  }
+   
+  #loginform {
+    padding-top: 18px;
+    text-align: center;
+  }
+   
+  #loginform p {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+   
+  #chatbox {
+    text-align: left;
+    margin-bottom:none;
+    padding: 10px;
+    background: #0c2836;
+    height: 70vh;
+    width:210vh;
+    border:none;
+    overflow: auto;
+    color:white;
+    padding-right:50px;
+  }
+   
+  #usermsg {
+    border:none;
+    padding: 10px 16px;
+    color:white;
+    background:#0c2836;
+    margin:none;
+    width:100%;
+  }
+  #usermsg::placeholder{
+    color:white;
+  }
+  #usermsg:focus{
+    outline:none;
+  }
+  #name {
+    border:none;
+    padding: 10px 16px;
+    color:white;
+    background:#0c2836;
+  }
+#name::placeholder{
+  color:white;
+}
+  #name:focus{
+    outline:none;
+  }
+ 
+
+  
+  #submitmsg,
+  #enter,
+  #exit,
+  #clearchat,
+  #clearlog{
+    cursor:pointer;
+    background: orange;
+    color: white;
+    padding:10px;
+    outline:none;
+    border:none;
+    font-family:Montserrat;
+    font-weight:bold;
+  }
+ #submitmsg,
+  #enter,
+  #exit,
+  #clearchat,
+  #clearlog:hover{
+    text-decoration:none;
+  }
+  
+  #admin {
+    color: red;
+  }
+   
+  .error {
+    color: red;
+  }
+   
+  #menu {
+    padding: 15px 25px;
+    display: flex;
+  }
+   
+  #menu p.welcome {
+    flex: 1;
+    color:white;
+  }
+  .msgln {
+    margin: 0 0 5px 0;
+  }
+   
+  .msgln span.left-info {
+    color: white;
+  }
+   
+  .msgln span.chat-time {
+    color: transparent;
+    font-size: 0.000000000000001px;
+    vertical-align: super;
+  }
+   
+  .msgln b.user-name, .msgln b.user-name-left {
+    font-weight: bold;
+    background: orange;
+    color: white;
+    padding: 2px 4px;
+    font-size: 90%;
+    margin: 0 5px 0 0;
+  }
+   
+  .msgln b.user-name-left {
+    background: orange;
+  }
